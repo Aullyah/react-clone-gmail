@@ -1,0 +1,79 @@
+.sendMail{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    background: #404040;
+    width: 40%;
+    height: 60%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+
+.sendMail__header{
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+
+.sendMail__close{
+    cursor: pointer;
+}
+
+.sendMail__header > h3{
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.sendMail > form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+}
+
+.sendMail > form > input{
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+}
+
+.sendMail__send{
+    flex: 1;
+    background-color: #3079ed !important;
+    text-transform: capitalize;
+    margin: 15px !important;
+    color: white !important;
+    padding: 10px 30px;
+}
+
+.sendMail__error{
+    background-color: white;
+    color: red;
+    text-align: right;
+}
+
+.sendMail > form > p {
+    background: white;
+}
+
+.sendMail > form > .message{
+    height: 80%;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    outline: none;
+    padding: 10px;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: white;
+}

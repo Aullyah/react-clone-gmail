@@ -1,0 +1,40 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #818181;
+}
+
+.sidebarOption:hover,
+.sidebarOption:hover > p,
+.sidebarOption:hover > h3,
+.sidebarOption--active,
+.sidebarOption--active > p,
+.sidebarOption--active > h3{
+    color: #c04b37;
+    background: #fcecec;
+    font-weight: 600 !important;
+}
+
+.sidebarOption > h3 {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    /* display: none; */
+}
+
+.sidebarOption > p {
+    font-size: 13px;
+    font-weight: 300;
+    display: none;
+}
+
+.sidebarOption--active > p,
+.sidebarOption:hover > p {
+    display: inline;
+}
